@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.site1 button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  animation: none;
+  box-shadow: 0px 0px 20px #00ff0d;
+}
+
+
+  .site1 button {
+    padding: 10px 35px;
+    border-radius: 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #00da0b;
+    animation: 2s button_animation ease infinite;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+
+  .site1{
+    flex-direction: column;
+    line-height: 100px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+
+  .site2{
+    flex-direction: column;
+    line-height: 100px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+  }
+
+
+  .site3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 100px;
+    text-align: center;
+  }
+
+
+  .site4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 100px;
+    text-align: center;
+    
+  }
+
+
+  .site5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 100px;
+  }
+  
+  .site6{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 100px;
+    
+  }
+
+
+  .corpo3{
+    min-height: 100vh;
+    background:#1a1a1a;
+    padding-bottom: 50px;
+  }
+
+
+  .site2 button {
+    padding: 10px 35px;
+    border-radius: 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #00da0b;
+    animation: 2s button_animation ease infinite;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+
+  .site2 button:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    animation: none;
+    box-shadow: 0px 0px 20px #00ff0d;
+  }
+
+
+  .corpo3 h1{
+    text-align: center;
+    color: #00ff0d;
+    padding-top: 50px;
+    font-size: 70px;
+  }
+
+
+  .site3 button {
+    padding: 10px 35px;
+    border-radius: 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #00da0b;
+    animation: 2s button_animation ease infinite;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+
+  .site3 button:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    animation: none;
+    box-shadow: 0px 0px 20px #00ff0d;
+  }
+
+
+.layout1{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  padding-top: 80px;
+  justify-content: space-around;
+
+}
+
+
+.corpo3 img{
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+.layout2{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  padding-top: 80px;
+  justify-content: space-around;
+}
+
+
+.site4 button {
+  padding: 10px 35px;
+  border-radius: 15px;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #00da0b;
+  animation: 2s button_animation ease infinite;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.site4 button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  animation: none;
+  box-shadow: 0px 0px 20px #00ff0d;
+}
+
+
+.site5 button {
+  padding: 10px 35px;
+  border-radius: 15px;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #00da0b;
+  animation: 2s button_animation ease infinite;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.site5 button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  animation: none;
+  box-shadow: 0px 0px 20px #00ff0d;
+}
+
+
+.layout3{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  padding-top: 80px;
+  
+}
+
+
+.site6 button {
+  padding: 10px 35px;
+  border-radius: 15px;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #00da0b;
+  animation: 2s button_animation ease infinite;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.site6 button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  animation: none;
+  box-shadow: 0px 0px 20px #00ff0d;
+}
+
+
+.footer_content ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+
+.footer_content ul li a:hover{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  color: #00ff0d;
+}
+
+
+@keyframes button_animation {
+  0% {
+    box-shadow: 0px 0px 0px #00ff0d;
+  }
+  50% {
+    box-shadow: 0px 0px 20px #00ff0d;
+  }
+  100% {
+    box-shadow: 0px 0px 0px #00ff0d;
+  }
+}
+
+

@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.fundoprincipal{
+    background:  linear-gradient(rgba(44,40,40,0.514), rgba(48,42,42,0.5)), url(./img/foto\ 1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.cabecalho{
+align-items: center;
+justify-content:space-between;
+display: flex;
+
+}
+.logo{
+    width: 400px;
+    height: 150px;
+    
+}
+.cabecalho ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-right: 30px;
+}
+.cabecalho ul li{
+    padding: 40px;
+    font-size: 20px;
+    font-family:cursive;
+    cursor: pointer;
+   
+}
+.cabecalho ul li:hover{
+    transition: .3s;
+    scale: 1.2;
+    color: orange;
+}
+
+.inputs1{
+    padding-left: 40px;
+}
+.inputs2{
+    padding-left: 40px;
+}
+.inputs3{
+    padding-left: 40px;
+}
+.inputs4{
+    padding-left: 40px;
+}
+.inputs5{
+    padding-left: 40px;
+}
+.input1{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.input2{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.input3{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.input4{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.input5{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.corpo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+.texto{
+    padding-left: 20px;
+    padding-top: 150px;
+    border-radius: 20px;
+    color: white;
+    font-family: cursive;
+   
+}
+.setaprabaixo{
+    padding-left: 1150px;
+    font-family: cursive;
+    color: white;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+.emo7{
+    width: 150px;
+    height: 80px;
+}
+.setabaixo{
+    width: 80px;
+    height: 80px;
+}
+    .input1:hover{
+    background-color: orange;
+    transition: .3s;
+    scale: 1.2;
+}
+    .input2:hover{
+    background-color: orange;
+    transition: .3s;
+    scale: 1.2;
+   }
+   .input3:hover{
+    background-color: orange;
+    transition: .3s;
+    scale: 1.2;
+   }
+   .input4:hover{
+    background-color: orange;
+    transition: .3s;
+    scale: 1.2;
+   }
+   .input5:hover{
+    background-color: orange;
+    transition: .3s;
+    scale: 1.2;
+   }
+   .meio{
+    background:  linear-gradient(rgba(44,40,40,0.514), rgba(48,42,42,0.5)), url(./img/foto\ fundo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+   }
+   .segundaparte{
+    background:  linear-gradient(rgba(44,40,40,0.514), rgba(48,42,42,0.5)), url(./img/foto\ fundo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+   }
+   .embranco{
+       background-color: white;
+       color: white;
+       font-size: 5px;
+   }
+   .segundaparteedit{
+      text-align: center;
+      color: white;
+      font-family: cursive;
+      padding-top: 50px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+   
+   }
+   .brasil{
+    width: 300px;
+    height: 450px;
+    border-radius: 30px;
+
+   }
+   .japao{
+    width: 300px;
+    height: 450px;
+    border-radius: 30px;
+   }
+   .brasiljapao{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+   }
+   .brasil2{
+    text-align: center;
+    align-items: center;
+    padding-right: 300px;
+   }
+   .japao2{
+       text-align: center;
+       align-items: center;
+       padding-left: 300px;
+       
+   }
+   .h1brasil{
+       color: white;
+       font-family: cursive;
+       padding-top: 50px;
+   }
+   .h1japao{
+       color: white;
+       font-family: cursive;
+       padding-top: 50px;
+   }
+   .brasil:hover{
+       transition: .5s;
+       scale: 1.2;
+   }
+   .japao:hover{
+    transition: .5s;
+    scale: 1.2;
+   }
+   .h2edit{
+       font-size: 40px;
+   }
+   .emo8{
+    width: 80px;
+    height: 58px;
+   }
+
+

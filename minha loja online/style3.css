@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.logo{
+    width: 300px;
+}
+#home{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.menu ul{
+  padding-left: 175px;
+  font-size: 20px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    
+}
+.menu2{
+    justify-content: space-between;
+    padding-left: 280px;
+    font-size: 20px;
+    
+}
+.menu2 ul li{
+    list-style: none;
+    display: inline-block;
+    
+  
+}.carrinho{
+    justify-content: space-between;
+    width: 70px;
+    padding-bottom: 30px;
+   
+}
+.contato{
+    background-color: rgb(207, 206, 206);
+    padding: 30px;
+    height: 74vh;
+   
+}
+.inputmsg{
+    width: 350px;
+    height: 100px;
+}
+.email{
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+    padding-bottom: 10px;
+
+}.assunto{
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+    padding-bottom: 10px;
+}
+.mensagem{
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+    padding: 10px;
+}
+.inputemail{
+    width: 300px;
+    height: 20px;
+}
+.inputassunto{
+    width: 300px;
+    height: 20px; 
+    
+}
+.tamanho{
+    width: 500px;
+    height: 500px;
+}
+    .edit{
+        align-items: center;
+        text-align: center;
+        
+    }
+    .button{
+        width: 120px;
+        height: 30px;
+        
+    }
+    .button1{
+      padding-top: 50px;
+    }
+    #home li a:hover{
+        color: orange;
+    }
+    #home li a{
+        color: black;
+    }
+
